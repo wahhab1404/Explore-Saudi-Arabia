@@ -1,0 +1,220 @@
+body  {
+    background-color: #fffafb;
+
+}
+.container {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fffafb;
+}
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color:#339657;
+  margin: 120px 0 90px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35vh;
+
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-align: center;
+    color:#2b2c28;
+    opacity: 0.5;
+    margin: 120px 0 90px;
+    font-weight: 600;
+    display: block;
+    justify-content: center;
+    position: relative;
+    top: 22vh;
+    left: 10px;
+
+}
+h3 {
+    font-size: 35px;
+    color: #fffafb;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    
+    
+}
+.cityName {
+    font-size: 45px;
+    text-align: left;
+    display: flex;
+    position: relative;
+    top:5vh;
+    left: -70vh;
+    margin: 0;
+}
+.cityInfo {
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+    position: relative;
+    max-width: 80vh;
+    top: 5vh;
+}
+.button {
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 12px 0;
+    width: 280px;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: #339657;
+    color: #fffafb;
+    text-decoration: none;
+    position: relative;
+    top: 45vh
+}
+a {
+    font-size: 20px;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #339657;
+}
+.city-pics {
+   width: 100%;
+   height: 90vh;
+   margin: 0 auto;
+   display: flex;
+   position: relative;
+   top: 5vh;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+}
+
+.riyadh-page {               /*background for riyadh page*/
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Riaydh.jpg);
+    background-size: cover;
+    
+    
+}
+
+
+
+
+
+.riyadh-pics {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 10vh;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+ }
+
+.pic-frame {                     /* menu imeges frame */
+    height: 300px;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    padding: 50px;
+    border-radius: 50px;
+    
+}
+
+
+#riyadh {                /*adding menu pics*/
+    background-image: url(./img/Riaydh.jpg);
+    background-position: -122px;
+    background-size: cover;
+}
+#jed {
+    background-image: url(./img/jeddah.jpg);
+    background-position: -200px;
+    background-size: cover;
+   
+}
+
+#alola {
+    background-image: url(./img/al\ ola.jpg);
+    background-position: -180px;
+    background-size: cover;
+    
+}
+#albaha {
+    background-image: url(./img/al\ bahah.jpg);
+    background-position: -180px;;
+    background-size: cover;
+   
+}
+#tabok {
+    background-image: url(./img/تبوك.jpg);
+    background-position: -50px;
+    background-size: cover;
+  
+}
+#nature {
+    background-image: url(./img/The\ End\ of\ the\ world.jpg);
+    background-size: cover;
+}
+#history {
+    background-image: url(./img/aldreah.jpg);
+    background-size: cover;
+    background-position: 350px
+}
+#great-places {
+    background-image: url(./img/RiaydhPlaces.jpg);
+    background-size: cover;
+}
+#food {
+    background-image: url(./img/arabic\ coffee.jpeg);
+    background-size: cover;
+}
+
+#riyadh:hover {                         /*adding hover effect to menu pics*/
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+#jed:hover {                
+    transform: scale(1.1);
+    transition: 1s;
+}
+#alola:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+#albaha:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+#tabok:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+#nature:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+#history:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+#great-places:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+#food:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
