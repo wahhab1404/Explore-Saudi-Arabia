@@ -1,10 +1,13 @@
 body  {
     background-color: #fffafb;
-
+    margin: 0;
 }
+html {              /*for smoth scroll*/
+    scroll-behavior: smooth;
+  }
 .container {
     width: 100vh;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     background-color: #fffafb;
 }
@@ -13,12 +16,10 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   color:#339657;
-  margin: 120px 0 90px;
+  margin: 120px 0 90px 0;
   font-weight: 600;
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 35vh;
 
 }
 
@@ -29,39 +30,52 @@ h2 {
     text-align: center;
     color:#2b2c28;
     opacity: 0.5;
-    margin: 120px 0 90px;
+    margin: 120px 0 90px 0;
     font-weight: 600;
     display: block;
     justify-content: center;
-    position: relative;
-    top: 22vh;
-    left: 10px;
 
 }
 h3 {
     font-size: 35px;
     color: #fffafb;
+    margin-top: 15vh;
+    margin-left: -3vh;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;   
+    background-color: rgba(0, 0, 0, 0.3)
+}
+h4{
+    font-size: 40px;
+    color: #fff;
     text-align: center;
+    margin-top: 50vh;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+p{
+    font-size: 24px;
+    color: #fff;
+    display: flex;
     position: relative;
-    top: 230px;
-    
-    
+    margin: left 0;
+}
+aside{
+    height: 30vh;
+    width: 100%;
+    background-color: black
 }
 .cityName {
     font-size: 45px;
-    text-align: left;
     display: flex;
-    position: relative;
-    top:5vh;
-    left: -70vh;
     margin: 0;
 }
 .cityInfo {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     display: flex;
-    position: relative;
-    max-width: 80vh;
+    position: absolute;
+    max-width: 100%;
     top: 5vh;
 }
 .button {
@@ -76,61 +90,160 @@ h3 {
     background: #339657;
     color: #fffafb;
     text-decoration: none;
-    position: relative;
     top: 45vh
 }
-a {
-    font-size: 20px;
+.about {
+    height: 40vh;
+    width: 80vh;
+    display: flex;
+    position: absolute;
+    margin-bottom: 5vh;
+    
 }
-header {
+
+span {
+    font-size: 30px;
+    color: #339657;
+    display: flex;
+    position: relative;
+}
+/* header {
     height: 10vh;
     width: 100%;
     background-color: #339657;
-}
+} */
 .city-pics {
    width: 100%;
-   height: 90vh;
-   margin: 0 auto;
+   height: 100vh;
    display: flex;
    position: relative;
-   top: 5vh;
    flex-direction: row-reverse;
-   justify-content: space-around;
+    justify-content: space-around;
+    background-image: url(./img/shada\ mount.jpg);
+    background-size: cover; 
 }
 
 .riyadh-page {               /*background for riyadh page*/
     width: 100%;
     height: 100vh;
+    display: block;
+    position: relative;
     background-image: url(./img/Riaydh.jpg);
     background-size: cover;
-    
-    
 }
 
 
+a. {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.history-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/aldreah.jpg);
+    background-size: cover;
+}
 
 
 
 .riyadh-pics {
     width: 100%;
-    margin: 0 auto;
+    height: 100vh;
     display: flex;
-    position: relative;
-    top: 10vh;
     flex-direction: row-reverse;
     justify-content: space-around;
+    position: absolute;
+    margin-bottom: 5vh;
  }
 
 .pic-frame {                     /* menu imeges frame */
-    height: 300px;
-    width: 150px;
-    margin: 0 auto;
-    position: relative;
+    height: 200px;
+    width: 100px;
+    margin:auto;
     padding: 50px;
     border-radius: 50px;
+    position: relative;
+    align-content: center;
+    
     
 }
-
+.riyadh-nature {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(./img/saudibaackground2.jpg);
+    background-size: cover;
+}
+.edge {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.wadi-hanefa {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/wadi\ hanifa2.jpg);
+    background-size: cover;
+}
+.carousel-container, .carousel-item {
+    height: 650px;
+    width: 100%;
+  }
+  
+  .carousel-item-1 {
+    background: url(./img/Edg\ of\ the\ world.jpg) center center;
+    background-size: cover;
+  }
+  .carousel-item-2 {
+    background: url(./img/Edg\ of\ the\ world2.jpg) center center;
+    background-size: cover;
+  }
+  .carousel-item-3 {
+    background: url(./img/The\ End\ of\ the\ world.jpg) center center;
+    background-size: initial;
+  }
+  .carousel-item-4 {
+    background: url(./img/aldreah.jpg) center center;
+    background-size: cover;
+  }
+  .carousel-item-5 {
+    background: url(./img/aldreah2.JPG) center center;
+    background-size: cover;
+  }
+  .carousel-item-6 {
+    background: url(./img/aldreah\ mosq.jpg) center center;
+    background-size: initial;
+  }
+  .carousel-item-7 {
+    background: url(./img/wadi\ hanifa3.jpg) center center;
+    background-size: cover;
+  }
+  .carousel-item-8 {
+    background: url(./img/wadi\ hanifa2.jpg) center center;
+    background-size: cover;
+  }
+  .carousel-item-9 {
+    background: url(./img/wadi\ hanifa5.jpg) center center;
+    background-size: initial;
+  }
+  .carousel-title {
+    color: white;
+    font-size: 30px;
+    margin-top: 200px;
+    max-height: 105px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .carousel-byline {
+    color: white;
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: center;
+    text-transform: capitalize;
+  }
 
 #riyadh {                /*adding menu pics*/
     background-image: url(./img/Riaydh.jpg);
@@ -179,7 +292,17 @@ header {
     background-image: url(./img/arabic\ coffee.jpeg);
     background-size: cover;
 }
-
+#edg-of-the-world {
+    background-image: url(./img/Edg\ of\ the\ world.jpg);
+    background-size: cover;
+}
+#heet-cave {
+    background-image: url(./img/HeetCaveRiyadh.jpg);
+    background-size: cover;
+}
+#wadi-hanefa {
+    background-image: url(./img/wadi\ hanifa.jpg);
+}
 #riyadh:hover {                         /*adding hover effect to menu pics*/
     transform: scale(1.1);
     transition: 1s;
@@ -218,3 +341,9 @@ header {
     transform: scale(1.1);
     transition: 1s;
 }
+
+
+  
+  
+  
+  

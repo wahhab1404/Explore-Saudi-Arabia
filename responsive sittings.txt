@@ -1,0 +1,208 @@
+/* RESPOSIVE SITTINGS
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .pic-frame {                     
+        height: 150px;
+        width: 75px;
+        margin: 0 auto;
+        position: relative;
+        padding: 50px;
+        border-radius: 50px;
+    }
+    h3 {
+        font-size: 20px;
+        color: #fffafb;
+        text-align: center;
+        position: relative;
+        top: 115px;
+        text-decoration: none;
+        height: 150px;
+        width: 75px;   
+    }
+    .city-pics {
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        display: flex;
+        position: relative;
+        top: 15vh;
+        flex-direction: row-reverse;
+         justify-content: space-around;
+         background-image: url(./img/shada\ mount.jpg);
+         background-size: cover; 
+     }
+     .button{
+         top:40vh;
+     }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024p
+  */
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .pic-frame {                     
+        height: 100px;
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        padding: 50px;
+        border-radius: 50px;
+  }
+     h3 {
+        font-size: 20px;
+        color: #fffafb;
+        text-align: center;
+        position: relative;
+        top: 77px;
+        text-decoration: none;
+        height: 100px;
+        width: 50px;   
+    }
+    .city-pics {
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        display: flex;
+        position: relative;
+        top: 30vh;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-image: url(./img/shada\ mount.jpg);
+        background-size: cover; 
+ }
+}
+  /* 
+  
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .pic-frame {                     
+        height: 66px;
+        width: 32px;
+        margin: 0 auto;
+        position: relative;
+        padding: 32px;
+        border-radius: 32px;
+  }
+     h3 {
+        font-size: 18px;
+        color: #fffafb;
+        text-align: center;
+        position: relative;
+        top: 35px;
+        right: 10px;
+        text-decoration: none;
+        height: 66px;
+        width: 30px;   
+    }
+    .city-pics {
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        display: flex;
+        position: relative;
+        top: 30vh;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-image: url(./img/shada\ mount.jpg);
+        background-size: cover; 
+ }
+  }
+  
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+
+  */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .pic-frame {                     
+        height: 45px;
+        width: 32px;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px;
+        border-radius: 22px;
+  }
+     h3 {
+        font-size: 14px;
+        color: #fffafb;
+        text-align: center;
+        position: relative;
+        top: 12px;
+        right: 7px;
+        text-decoration: none;
+        height: 66px;
+        width: 30px;   
+    }
+    .city-pics {
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        display: flex;
+        position: relative;
+        top: 20vh;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-image: url(./img/shada\ mount.jpg);
+        background-size: cover; 
+ }
+  }
+
+  /* 
+  
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+  
+    ##Screen = B/w 320px to 479px
+  
+  */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .pic-frame {                     
+        height: 45px;
+        width: 32px;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px;
+        border-radius: 22px;
+  }
+     h3 {
+        font-size: 14px;
+        color: #fffafb;
+        text-align: center;
+        position: relative;
+        top: 12px;
+        right: 7px;
+        text-decoration: none;
+        height: 66px;
+        width: 30px;   
+    }
+    .city-pics {
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        display: flex;
+        position: relative;
+        top: 20vh;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-image: url(./img/shada\ mount.jpg);
+        background-size: cover; 
+ }
+  }
