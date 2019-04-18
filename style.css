@@ -1,6 +1,7 @@
 body  {
     background-color: #fffafb;
     margin: 0;
+    text-decoration: none;
 }
 html {              /*for smoth scroll*/
     scroll-behavior: smooth;
@@ -133,7 +134,7 @@ span {
 }
 
 
-a. {
+a {
     font-size: 20px;
     text-decoration: none;
     text-align: center;
